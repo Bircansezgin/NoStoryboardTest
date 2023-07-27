@@ -48,11 +48,12 @@ class RegisterViewController: UIViewController {
     }()
     
     private let backbuttin: UIButton = {
-        
-        
         let loginB = UIButton(type: .system)
         loginB.translatesAutoresizingMaskIntoConstraints = false
-        loginB.setTitle("Back", for: .normal)
+        //loginB.setTitle("Back", for: .normal)
+        let imageView = UIImage(systemName: "arrowshape.turn.up.backward")
+        // arrowshape.backward
+        loginB.setImage(imageView, for: .normal)
         loginB.tintColor = .black
         loginB.layer.cornerRadius = 5
         loginB.titleLabel?.font =  UIFont(name: "Helvetica-Bold", size: 16)
@@ -60,6 +61,7 @@ class RegisterViewController: UIViewController {
         loginB.addTarget(self, action: #selector(loginTargetfunc), for: .touchUpInside)
         
         return loginB
+
     }()
     
     
