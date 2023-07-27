@@ -1,0 +1,10 @@
+<svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lock icon">
+<mask id="mask0_0_295" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="26">
+<rect id="Background" x="0.00012207" y="0.5" width="25" height="25" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_295)">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M12.5001 2.84375C9.49719 2.84375 7.03137 5.30957 7.03137 8.3125V10.6563H4.68762V23.1562H20.3126V10.6563H17.9689V8.3125C17.9689 5.30957 15.5031 2.84375 12.5001 2.84375ZM12.5001 4.40625C14.6516 4.40625 16.4064 6.16101 16.4064 8.3125V10.6562H8.59387V8.3125C8.59387 6.16101 10.3486 4.40625 12.5001 4.40625ZM6.25012 12.2188H18.7501V21.5938H6.25012V12.2188Z" fill="#AEAEAE"/>
+</g>
+</g>
+</svg>
