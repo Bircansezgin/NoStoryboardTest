@@ -224,7 +224,7 @@ class LoginViewController: UIViewController {
            registerButton.translatesAutoresizingMaskIntoConstraints = false
     
         let mainText = "Don't have an account already? "
-        let signUptext = "Sing Up"
+        let signUptext = "Sign Up"
         
         let attirbutedString = NSMutableAttributedString(string: mainText + signUptext)
         attirbutedString.addAttribute(.foregroundColor, value: UIColor.gray, range: NSRange(location: 0, length: mainText.count))

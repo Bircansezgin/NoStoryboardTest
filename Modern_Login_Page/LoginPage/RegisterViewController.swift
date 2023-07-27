@@ -15,7 +15,7 @@ class RegisterViewController: UIViewController {
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Welcome Register Page"
+        label.text = "Welcome Register"
         label.textColor = .black
         label.font = UIFont(name: "Helvetica-Bold", size: 24)
         return label
@@ -57,7 +57,7 @@ class RegisterViewController: UIViewController {
         loginB.tintColor = .black
         loginB.layer.cornerRadius = 5
         loginB.titleLabel?.font =  UIFont(name: "Helvetica-Bold", size: 16)
-        
+        // Self dokununca bozuluyor.
         loginB.addTarget(self, action: #selector(loginTargetfunc), for: .touchUpInside)
         
         return loginB
