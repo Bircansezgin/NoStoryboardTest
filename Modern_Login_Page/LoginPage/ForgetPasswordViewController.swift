@@ -116,10 +116,11 @@ class ForgetPasswordViewController: UIViewController {
     func loginButtonStart() {
         let loginB = UIButton(type: .system)
         loginB.translatesAutoresizingMaskIntoConstraints = false
-        loginB.setTitle("LOG IN", for: .normal)
-        loginB.tintColor = .white
-        loginB.backgroundColor = UIColor(red: 0.102, green: 0.31, blue: 0.545, alpha: 1) // Mavi arka plan rengi
+        loginB.setTitle("Reset Password", for: .normal)
+        loginB.tintColor = .black
+        loginB.backgroundColor = UIColor(red: 0.945, green: 0.945, blue: 0.945, alpha: 1) // Mavi arka plan rengi
         loginB.layer.cornerRadius = 5
+        loginB.layer.cornerRadius = 15
         loginB.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         
         loginB.addTarget(self, action: #selector(loginTargetfunc), for: .touchUpInside)
@@ -130,7 +131,7 @@ class ForgetPasswordViewController: UIViewController {
             loginB.topAnchor.constraint(equalTo: headerLabel.bottomAnchor, constant: 150), // "Forget Password?" butonunun altından 50 birim uzaklıkta
             loginB.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 25), // Sol kenardan 40 birim içeride
             loginB.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -25), // Sağ kenardan 40 birim içeride
-            loginB.heightAnchor.constraint(equalToConstant: 50) // Buton yüksekliği 50 piksel olsun
+            loginB.heightAnchor.constraint(equalToConstant: 40) // Buton yüksekliği 50 piksel olsun
         ])
     }
 

@@ -195,8 +195,8 @@ class LoginViewController: UIViewController {
         
         NSLayoutConstraint.activate([
             loginB.topAnchor.constraint(equalTo: passwordTextField.bottomAnchor, constant: 50), // "Forget Password?" butonunun altından 50 birim uzaklıkta
-            loginB.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 35), // Sol kenardan 40 birim içeride
-            loginB.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -35), // Sağ kenardan 40 birim içeride
+            loginB.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 25), // Sol kenardan 40 birim içeride
+            loginB.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -25), // Sağ kenardan 40 birim içeride
             loginB.heightAnchor.constraint(equalToConstant: 40) // Buton yüksekliği 50 piksel olsun
         ])
     }
