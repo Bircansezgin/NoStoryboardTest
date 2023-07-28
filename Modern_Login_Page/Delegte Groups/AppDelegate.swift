@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Parse
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,7 +14,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-    
+        // Uygulama acilirken Sunucunun(Back4App / Parse) Baglantisi!
+        let configuartin = ParseClientConfiguration { (ParseMutableClientConfiguration) in
+            ParseMutableClientConfiguration.applicationId = "EebGIZYUFCeMMTW3CdahCQejrJuyYMQDdNDpfMEj"
+            ParseMutableClientConfiguration.clientKey = "g9g1ZeIjeet86aGuT6Jcq1PKScW8n1zkBXqKaxNC"
+            ParseMutableClientConfiguration.server = "https://parseapi.back4app.com"
+        }
+        
+        Parse.initialize(with: configuartin)
+        
         
         
         

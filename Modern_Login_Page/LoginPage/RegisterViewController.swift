@@ -1,8 +1,10 @@
 import UIKit
 
-
+import Parse
 
 class RegisterViewController: UIViewController {
+    
+    let userServer = PFUser()
     
     private let loginImageView: UIImageView = {
         let imageView = UIImageView()
@@ -46,7 +48,6 @@ class RegisterViewController: UIViewController {
         
         return usernameTextField
     }()
-    
     
     private let emailTextField: UITextField = {
         
@@ -137,12 +138,10 @@ class RegisterViewController: UIViewController {
         signUpButton.layer.cornerRadius = 15
         signUpButton.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         
+        signUpButton.addTarget(self, action: #selector(registerUpButton), for: .touchUpInside)
+        
         return signUpButton
     }()
-
-    
-    
- 
     
     private let backbuttin: UIButton = {
         let backB = UIButton(type: .system)
@@ -160,8 +159,6 @@ class RegisterViewController: UIViewController {
         return backB
         
     }()
-    
-    
     
     
     override func viewDidLoad() {
@@ -183,7 +180,6 @@ class RegisterViewController: UIViewController {
         dismiss(animated: true)
         
     }
-    
     
     
     func setupLoginImage() {
@@ -266,7 +262,32 @@ class RegisterViewController: UIViewController {
         
     }
     
+    @objc func registerUpButton(){
+        
+        if let email = self.emailTextField.text, let passwordOne = self.passwordOneTextField.text, let passwordTwo = self.passwordTwoTextField.text,
+           let username = self.usernameTextField.text{
+            
+            userServer.email = email
+            userServer.password = passwordOne
+            userServer.username = username
+            
+            
+            
+            userServer.signUpInBackground { succes, error in
+                if error != nil{
+                    self.setupShowAlertSignUP(title: "Info", message: error!.localizedDescription, buttonHeader: "Try")
+                }else{
+                    self.setupShowAlertSignUP(title: "Account Info", message: "Your account has been successfully created", buttonHeader: "OK")
+                }
+            }
+            
+        }else{
+            
+        }
+    }
     
+    
+   
     func setupBackButton(){
         view.addSubview(backbuttin)
         
@@ -274,5 +295,13 @@ class RegisterViewController: UIViewController {
             backbuttin.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 5),
             backbuttin.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10)
         ])
+    }
+    
+    
+    func setupShowAlertSignUP(title:String, message:String, buttonHeader:String){
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okButton = UIAlertAction(title: buttonHeader, style: .default)
+        alert.addAction(okButton)
+        self.present(alert, animated: true)
     }
 }

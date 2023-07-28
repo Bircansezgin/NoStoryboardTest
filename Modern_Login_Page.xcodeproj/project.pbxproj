@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002C96598FF4B2B8B403F78B /* Pods_Modern_Login_PageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198B15D638F419999947E0A3 /* Pods_Modern_Login_PageTests.framework */; };
+		4F580002CE31F271BA6E2BAB /* Pods_Modern_Login_Page.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696F619D594E649CA039A103 /* Pods_Modern_Login_Page.framework */; };
 		84690A1B2A7009940029AFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84690A1A2A7009940029AFF7 /* AppDelegate.swift */; };
 		84690A1D2A7009940029AFF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84690A1C2A7009940029AFF7 /* SceneDelegate.swift */; };
 		84690A1F2A7009940029AFF7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84690A1E2A7009940029AFF7 /* LoginViewController.swift */; };
@@ -19,6 +21,7 @@
 		84690A502A7077160029AFF7 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84690A4F2A7077160029AFF7 /* ForgetPasswordViewController.swift */; };
 		84690A522A7086F30029AFF7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84690A512A7086F30029AFF7 /* RegisterViewController.swift */; };
 		84690A542A708D520029AFF7 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84690A532A708D520029AFF7 /* UIImage+Ext.swift */; };
+		A3BD29F56ADA03B0A983A7DE /* Pods_Modern_Login_Page_Modern_Login_PageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8CCB0429DB5967B39D2B6D /* Pods_Modern_Login_Page_Modern_Login_PageUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D8CCB0429DB5967B39D2B6D /* Pods_Modern_Login_Page_Modern_Login_PageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modern_Login_Page_Modern_Login_PageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF393922EF1FF05DD16C050 /* Pods-Modern_Login_Page-Modern_Login_PageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modern_Login_Page-Modern_Login_PageUITests.debug.xcconfig"; path = "Target Support Files/Pods-Modern_Login_Page-Modern_Login_PageUITests/Pods-Modern_Login_Page-Modern_Login_PageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		198B15D638F419999947E0A3 /* Pods_Modern_Login_PageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modern_Login_PageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3A0569B5B9BB4B3735C3AE /* Pods-Modern_Login_Page.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modern_Login_Page.debug.xcconfig"; path = "Target Support Files/Pods-Modern_Login_Page/Pods-Modern_Login_Page.debug.xcconfig"; sourceTree = "<group>"; };
+		696F619D594E649CA039A103 /* Pods_Modern_Login_Page.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modern_Login_Page.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B5BB5D7B1F612BA45E3055 /* Pods-Modern_Login_Page-Modern_Login_PageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modern_Login_Page-Modern_Login_PageUITests.release.xcconfig"; path = "Target Support Files/Pods-Modern_Login_Page-Modern_Login_PageUITests/Pods-Modern_Login_Page-Modern_Login_PageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		84690A172A7009940029AFF7 /* Modern_Login_Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modern_Login_Page.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84690A1A2A7009940029AFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84690A1C2A7009940029AFF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +64,9 @@
 		84690A4F2A7077160029AFF7 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		84690A512A7086F30029AFF7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		84690A532A708D520029AFF7 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		8C77C15F0B22AC91AEF19590 /* Pods-Modern_Login_PageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modern_Login_PageTests.release.xcconfig"; path = "Target Support Files/Pods-Modern_Login_PageTests/Pods-Modern_Login_PageTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3CF8B34FDE4698F373EF1DD /* Pods-Modern_Login_PageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modern_Login_PageTests.debug.xcconfig"; path = "Target Support Files/Pods-Modern_Login_PageTests/Pods-Modern_Login_PageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5F31D90553AD0FA1244277 /* Pods-Modern_Login_Page.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modern_Login_Page.release.xcconfig"; path = "Target Support Files/Pods-Modern_Login_Page/Pods-Modern_Login_Page.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F580002CE31F271BA6E2BAB /* Pods_Modern_Login_Page.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002C96598FF4B2B8B403F78B /* Pods_Modern_Login_PageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BD29F56ADA03B0A983A7DE /* Pods_Modern_Login_Page_Modern_Login_PageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4558E5163195B9B3C214A70F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F3A0569B5B9BB4B3735C3AE /* Pods-Modern_Login_Page.debug.xcconfig */,
+				BC5F31D90553AD0FA1244277 /* Pods-Modern_Login_Page.release.xcconfig */,
+				0EF393922EF1FF05DD16C050 /* Pods-Modern_Login_Page-Modern_Login_PageUITests.debug.xcconfig */,
+				79B5BB5D7B1F612BA45E3055 /* Pods-Modern_Login_Page-Modern_Login_PageUITests.release.xcconfig */,
+				A3CF8B34FDE4698F373EF1DD /* Pods-Modern_Login_PageTests.debug.xcconfig */,
+				8C77C15F0B22AC91AEF19590 /* Pods-Modern_Login_PageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CEAFE0AD1CEB3B0D669EE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				696F619D594E649CA039A103 /* Pods_Modern_Login_Page.framework */,
+				0D8CCB0429DB5967B39D2B6D /* Pods_Modern_Login_Page_Modern_Login_PageUITests.framework */,
+				198B15D638F419999947E0A3 /* Pods_Modern_Login_PageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84690A0E2A7009940029AFF7 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +127,8 @@
 				84690A302A7009950029AFF7 /* Modern_Login_PageTests */,
 				84690A3A2A7009950029AFF7 /* Modern_Login_PageUITests */,
 				84690A182A7009940029AFF7 /* Products */,
+				4558E5163195B9B3C214A70F /* Pods */,
+				4CEAFE0AD1CEB3B0D669EE2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84690A412A7009950029AFF7 /* Build configuration list for PBXNativeTarget "Modern_Login_Page" */;
 			buildPhases = (
+				C60EC8D98EF5154AA6E88CC0 /* [CP] Check Pods Manifest.lock */,
 				84690A132A7009940029AFF7 /* Sources */,
 				84690A142A7009940029AFF7 /* Frameworks */,
 				84690A152A7009940029AFF7 /* Resources */,
+				7A9FAD623C8E613F6B5AC3D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84690A442A7009950029AFF7 /* Build configuration list for PBXNativeTarget "Modern_Login_PageTests" */;
 			buildPhases = (
+				255F2708727972E914B2EB03 /* [CP] Check Pods Manifest.lock */,
 				84690A292A7009950029AFF7 /* Sources */,
 				84690A2A2A7009950029AFF7 /* Frameworks */,
 				84690A2B2A7009950029AFF7 /* Resources */,
@@ -202,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84690A472A7009950029AFF7 /* Build configuration list for PBXNativeTarget "Modern_Login_PageUITests" */;
 			buildPhases = (
+				4AE223AD9310DECC345C25BC /* [CP] Check Pods Manifest.lock */,
 				84690A332A7009950029AFF7 /* Sources */,
 				84690A342A7009950029AFF7 /* Frameworks */,
 				84690A352A7009950029AFF7 /* Resources */,
+				75E9102C9384A8B10E5A729F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,6 +329,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		255F2708727972E914B2EB03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Modern_Login_PageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE223AD9310DECC345C25BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Modern_Login_Page-Modern_Login_PageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E9102C9384A8B10E5A729F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Modern_Login_Page-Modern_Login_PageUITests/Pods-Modern_Login_Page-Modern_Login_PageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Modern_Login_Page-Modern_Login_PageUITests/Pods-Modern_Login_Page-Modern_Login_PageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Modern_Login_Page-Modern_Login_PageUITests/Pods-Modern_Login_Page-Modern_Login_PageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9FAD623C8E613F6B5AC3D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Modern_Login_Page/Pods-Modern_Login_Page-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Modern_Login_Page/Pods-Modern_Login_Page-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Modern_Login_Page/Pods-Modern_Login_Page-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C60EC8D98EF5154AA6E88CC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Modern_Login_Page-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84690A132A7009940029AFF7 /* Sources */ = {
@@ -460,6 +608,7 @@
 		};
 		84690A422A7009950029AFF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3A0569B5B9BB4B3735C3AE /* Pods-Modern_Login_Page.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +622,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +630,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "softrestart.Modern-Login-Page";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84690A432A7009950029AFF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5F31D90553AD0FA1244277 /* Pods-Modern_Login_Page.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -501,6 +655,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,14 +663,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "softrestart.Modern-Login-Page";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		84690A452A7009950029AFF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CF8B34FDE4698F373EF1DD /* Pods-Modern_Login_PageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +695,7 @@
 		};
 		84690A462A7009950029AFF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C77C15F0B22AC91AEF19590 /* Pods-Modern_Login_PageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +716,7 @@
 		};
 		84690A482A7009950029AFF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF393922EF1FF05DD16C050 /* Pods-Modern_Login_Page-Modern_Login_PageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +735,7 @@
 		};
 		84690A492A7009950029AFF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B5BB5D7B1F612BA45E3055 /* Pods-Modern_Login_Page-Modern_Login_PageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
